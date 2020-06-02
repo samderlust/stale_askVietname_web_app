@@ -1,0 +1,76 @@
+.app_root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: Muli !important;
+}
+
+.app_container {
+  width: 80vw;
+  height: 100vh;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: Muli !important;
+}
+
+.app_bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  font-family: Muli !important;
+}
+
+.place_search_input {
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 2px 10px;
+  font-size: 1em;
+  font-family: Muli !important;
+}
+
+div.recommandation_box {
+  width: 80%;
+  height: 200px;
+  background-color: rgb(250, 249, 248);
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 1px -1px 6px 1px rgba(0, 0, 0, 0.41);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 9;
+  font-family: Muli !important;
+}
+
+.recommandation_box .recommandation_box-header {
+  /* background-color: rgb(184, 91, 91); */
+  width: 100%;
+  max-height: 30px;
+  flex: 1;
+  padding: 2px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.MuiTypography-h4 {
+  font-family: Muli !important;
+  font-size: 20px !important;
+}
