@@ -1,3 +1,6 @@
+THIS PROJECT IS STALE AND IS NOT CURRENTLY BEING USED FOR PRODUCTION
+THIS IS HERE FOR THE PURPOSE OF SHOWCASE OF MY WORK WITH TYPESCRIPT - REACT
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
